@@ -28,11 +28,6 @@ a:-webkit-any-link {
 a:-moz-any-link {
     color: #f0f0f0;
 }
-main{
-    width: clamp(250px, 50%, 500px);
-    display: flex;
-    justify-content: center;
-}
 #logo{
     width: 60px;
 }
@@ -58,4 +53,17 @@ h1{
 }
 h2{
     font-size: 25px;
+}
+#wraper{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10;
+}
+div div{
+    border: 1px solid violet;
+    border-radius: 5px;
+    padding: 5px;
+    width: clamp(250px, 50%, 700px);
+    background-color: #444;
 }
