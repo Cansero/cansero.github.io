@@ -42,7 +42,7 @@ a:-moz-any-link {
     justify-content: center;
 }
 #header ul{
-    width: clamp(250px, 50%, 700px);
+    width: clamp(250px, 50%, 900px);
     margin-top: 30px;
 }
 #header ul li{
@@ -62,19 +62,30 @@ div div{
     border: 1px solid violet;
     border-radius: 5px;
     padding: 5px;
-    width: clamp(250px, 50%, 700px);
+    width: clamp(250px, 50%, 900px);
     background-color: #444;
     margin-top: 10px;
 }
 #post1{
     display: grid;
-    grid-template-columns: 250 1fr;
+    grid-template-columns: auto auto;
 }
 #Cansero{
     grid-column: 1/2;
-    height: 250px;
+    height: 400px;
 }
 #post1 div{
     grid-column: 2/3;
     width: auto;
+    margin: 0;
+}
+#post1 div div{
+    justify-items: center;
+}
+#post1 div h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#post1 div p{
+    margin-bottom: 10px;
 }
