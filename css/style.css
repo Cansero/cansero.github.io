@@ -56,9 +56,7 @@ h2{
 }
 #wraper{
     display: flex;
-    margin: 0 auto;
     justify-content: center;
-    padding: 10;
 }
 div div{
     border: 1px solid violet;
@@ -66,4 +64,17 @@ div div{
     padding: 5px;
     width: clamp(250px, 50%, 700px);
     background-color: #444;
+    margin-top: 10px;
+}
+#post1{
+    display: grid;
+    grid-template-columns: 250 1fr;
+}
+#Cansero{
+    grid-column: 1/2;
+    height: 250px;
+}
+#post1 div{
+    grid-column: 2/3;
+    width: auto;
 }
